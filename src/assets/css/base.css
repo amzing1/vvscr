@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 10000px;
+    height: 10000px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgb(42,42,42);
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1620372349054') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
